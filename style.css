@@ -101,15 +101,13 @@ a:hover::after { transform: var(--link-after); }
 a:visited {  color: var(--text); }
 
 .emphasize { font-family: var(--font-italic); }
-
 .right { text-align: right; }
-
-.pb-lg { padding-bottom: var(--padding-lg); }
 
 .container {
     width: var(--container);
     margin: var(--margin);
     padding-top: var(--padding-md);
+    padding-bottom: var(--padding-lg);
 }
 
 .scroll-fade-text {
